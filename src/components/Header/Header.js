@@ -46,6 +46,16 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#">
+          <NavLink>Resume</NavLink>
+        </Link>
+      </li>
+      {/* <li>
+        <Link href="#">
+          <NavLink>KK the Cat</NavLink>
+        </Link>
+      </li> */}
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/iamwangziwei">
