@@ -1,5 +1,6 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiPython, DiDatabase } from "react-icons/di";
+
 import {
   Section,
   SectionDivider,
@@ -20,35 +21,35 @@ const Technologies = () => (
     <SectionDivider></SectionDivider>
     <Hr></Hr>
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>asd</SectionText>
+    <SectionText>Always eager to learn more!</SectionText>
     <List>
+      <ListItem>
+        <DiPython size="3rem"></DiPython>
+        <ListContainer>
+          <ListTitle>Languages</ListTitle>
+          <ListParagraph>
+            Experience with<br></br>Python, JavaScript, Java, SQL
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <DiReact size="3rem"></DiReact>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Frameworks</ListTitle>
           <ListParagraph>
-            Experience with<br></br>React.js, Redux
+            Experience with<br></br>React.js, Node.js, Express.js,
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem"></DiFirebase>
+        <DiDatabase size="3rem"></DiDatabase>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Databases & DevOps</ListTitle>
           <ListParagraph>
-            Experience with<br></br>Node.js, Express.js, Mongodb
+            Experience with<br></br>MongoDB, Docker, Heroku
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      {/* <ListItem>
-        <DiFirebase size="3rem"></DiFirebase>
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with<br></br>Node.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem> */}
     </List>
   </Section>
 );
