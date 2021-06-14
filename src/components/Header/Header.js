@@ -47,7 +47,7 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#">
+        <Link href="/Resume/resume.pdf">
           <NavLink>Resume</NavLink>
         </Link>
       </li>
