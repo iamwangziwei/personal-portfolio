@@ -77,14 +77,14 @@ const Timeline = () => {
         Apart from programming, I also enjoy traveling and gamming. Can't wait
         for God of War Ⅴ :D
       </SectionText>
-      <GridContainer>
+      {/* <GridContainer>
         <BlogCard>
           <Img src="/images/5.jpeg"></Img>
         </BlogCard>
         <BlogCard>
           <Img src="/images/6.jpeg"></Img>
         </BlogCard>
-      </GridContainer>
+      </GridContainer> */}
     </Section>
   );
 };
