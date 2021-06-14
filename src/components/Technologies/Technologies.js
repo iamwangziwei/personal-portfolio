@@ -14,12 +14,18 @@ import {
   ListParagraph,
   ListTitle,
 } from "./TechnologiesStyles";
-import { Hr } from "../Projects/ProjectsStyles";
 
 const Technologies = () => (
   <Section id="tech">
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <SectionDivider></SectionDivider>
-    <Hr></Hr>
+    <br></br>
+    <br></br>
+    <br></br>
+
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>Always eager to learn more!</SectionText>
     <List>
@@ -37,7 +43,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Frameworks</ListTitle>
           <ListParagraph>
-            Experience with<br></br>React.js, Node.js, Express.js,
+            Experience with<br></br>React.js, Node.js, Express.js, D3.js
           </ListParagraph>
         </ListContainer>
       </ListItem>

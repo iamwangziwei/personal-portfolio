@@ -18,6 +18,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
+import { GridContainer, BlogCard, Img } from "../Projects/ProjectsStyles";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -57,7 +58,35 @@ const Timeline = () => {
   //   window.addEventListener('resize', handleResize);
   // }, []);
 
-  return <div></div>;
+  return (
+    <Section id="about">
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <SectionDivider></SectionDivider>
+      <br></br>
+      <br></br>
+      <br></br>
+      <SectionTitle>About Me</SectionTitle>
+      <SectionText>
+        Each line of code is a brick and I am the architect. My passion for
+        software development has driven me to keep learning and building cool
+        stuff.
+        <br></br>
+        Apart from programming, I also enjoy traveling and gamming. Can't wait
+        for God of War Ⅴ :D
+      </SectionText>
+      <GridContainer>
+        <BlogCard>
+          <Img src="/images/5.jpeg"></Img>
+        </BlogCard>
+        <BlogCard>
+          <Img src="/images/6.jpeg"></Img>
+        </BlogCard>
+      </GridContainer>
+    </Section>
+  );
 };
 
 export default Timeline;
