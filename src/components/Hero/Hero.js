@@ -14,13 +14,11 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Hello, I'm Ziwei
-        <br></br>Welcome to My Personal Porfolio
+        <br></br>Welcome to My Personal Portfolio
       </SectionTitle>
       <SectionText>
         I am a Computer Science student at York University <br></br>who has a
         passion for coding!
-        <br></br>
-        I'm available for an internship of 4/8/12/16 months starting Sep. 2021
       </SectionText>
       <Button>
         <div>
